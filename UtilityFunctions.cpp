@@ -1,5 +1,3 @@
-
-
 int Utility::RemoveTwos(int original){
   bool done = false;
   int answer = 0;
@@ -10,7 +8,6 @@ int Utility::RemoveTwos(int original){
     else{
       done = true;
       return answer;
-    }
     }
   }
 }
