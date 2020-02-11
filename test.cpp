@@ -2,13 +2,12 @@
 
 // includes as you need them
 
-
 #include "catch.hpp"
 #include "UtilityFunctions.h"
 
 // Your tests go here
 // Each TEST_CASE should test one function
-TEST_CASE("Sign") {
-    REQUIRE(Sign(1) == 1);
+TEST_CASE("Signs are correct", "[sign]") {
+    REQUIRE( Sign(1) == 1 );
 }
 // Each SECTION should test one aspect of that function
