@@ -1,8 +1,12 @@
 #ifndef UTILITY_H
 #define UTILITY_H
 
+#include <iostream>
+#include <stdlib.h>
+#include <cstdlib>
 
-Class Utility{
+
+class Utility{
   public:
   // returns -1 if the number is negative and 1 if positive
   int Sign(int num);
@@ -12,4 +16,6 @@ Class Utility{
   int RemoveTwos(int original);
 
   
-}
+};
+
+#endif
