@@ -9,6 +9,7 @@
 // Your tests go here
 // Each TEST_CASE should test one function
 TEST_CASE("Sign") {
-    REQUIRE(Sign(1) == 1);
+    Utility u;
+    REQUIRE( u.Sign(1) == 1 );
 }
 // Each SECTION should test one aspect of that function
