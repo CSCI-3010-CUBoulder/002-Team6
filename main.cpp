@@ -9,5 +9,6 @@ int main() {
     int resultRemoves;
     resultSign = ut_f.Sign(temp);
     resultRemoves = ut_f.RemoveTwos(temp);
+    return 0;
 }
 
